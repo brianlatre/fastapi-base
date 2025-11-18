@@ -1,20 +1,3 @@
-Aquí lo tienes: **un README.md serio, completo, profesional y pensado para concurso**, explicando:
-
-- Estructura del proyecto
-- Cómo funciona FastAPI
-- Qué son los routers
-- Qué son los schemas
-- Qué son los models
-- Qué es SQLAlchemy y cómo se relaciona
-- Cómo usar Pydantic v2 y pydantic-settings
-- Cómo añadir tablas, claves foráneas, relaciones 1-N y N-N
-- Cómo extender el proyecto de forma correcta
-- Cómo ejecutar con Docker
-
-Todo en un tono formal, limpio y totalmente listo para presentar.
-
----
-
 # 📘 FastAPI Base Starter – Proyecto Template (Docker + SQLite + SQLAlchemy + Pydantic v2)
 
 Este proyecto es una **plantilla base profesional** para construir APIs con **FastAPI**, organizada siguiendo prácticas recomendadas, totalmente dockerizada, y con **SQLite** como base de datos por defecto (fácilmente reemplazable por PostgreSQL o MySQL).
