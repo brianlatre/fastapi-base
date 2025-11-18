@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: fastapi-base
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/code           # proyecto completo
+      - ./data:/data       # volumen persistente para sqlite
+    environment:
+      - DATABASE_URL=sqlite:////data/app.db
+    working_dir: /code
+    restart: unless-stopped
